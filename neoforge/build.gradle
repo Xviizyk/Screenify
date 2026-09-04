@@ -36,6 +36,8 @@ dependencies {
 
     common(project(path: ':common')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')
+
+    include "net.sf.cssbox:jstyleparser:$rootproject.jstyleparser_lib_version"
 }
 
 processResources {
