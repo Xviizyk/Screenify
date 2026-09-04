@@ -1,0 +1,35 @@
+/*
+ * Screenify — base.css
+ *
+ * Default stylesheet bundled with the mod. Loaded before any user theme,
+ * so user CSS can simply override these rules instead of starting from
+ * nothing. Selectors here target Screenify's own GUI widget identifiers,
+ * not real HTML/DOM elements.
+ */
+
+screen {
+    background-color: #000000;
+}
+
+button {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #a0a0a0;
+}
+
+button:disabled {
+    background-color: #404040;
+    color: #808080;
+}
+
+text {
+    color: #ffffff;
+}
+
+tooltip {
+    background-color: #100010;
+    color: #ffffff;
+}
