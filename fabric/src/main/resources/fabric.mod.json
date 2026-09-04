@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "screenify",
+  "version": "${version}",
+  "name": "Screenify",
+  "description": "Adding to minecraft customing themes with css.",
+  "authors": [
+    "Xviizyk"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/screenify",
+    "sources": "https://github.com/Xviizyk/Screenify"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "assets/screenify/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.xviizyk.fabric.ScreenifyFabric"
+    ],
+    "client": [
+      "org.xviizyk.fabric.client.ScreenifyFabricClient"
+    ]
+  },
+  "mixins": [
+    "screenify.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "architectury": ">=20.0.12",
+    "fabric-api": "*"
+  }
+}
